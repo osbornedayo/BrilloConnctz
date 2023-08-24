@@ -1,13 +1,6 @@
 package com.project.javaApp;
-
-
-
 import java.util.concurrent.CompletableFuture;
 import java.util.concurrent.ExecutionException;
-
-
-
-
 
 public class PancakeSimulationConcurrent {
     public static void main(String[] args) {
@@ -56,7 +49,7 @@ public class PancakeSimulationConcurrent {
                 System.out.println("Unmet orders: " + (totalPancakesEaten - shopkeeper.getTotalPancakesMade()));
             }
 
-            System.out.println("-------------------------");
+            System.out.println("--------------------------");
 
             timeSlot++;
         }
